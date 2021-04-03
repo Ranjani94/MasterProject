@@ -5,7 +5,7 @@
 - pip install virtualenv
 - virtualenv env
 
-Steps to run:
+### Steps to run:
 
 - source env/bin/activate
 - export FLASK_APP=main.py
@@ -15,7 +15,7 @@ Steps to run:
 
 app.yaml and appengine_config.py - these files are used to deploy the web application using Google App engine in GCP
 
-Steps to deploy the webapp:
+### Steps to deploy the webapp:
 
 - Go to google cloud platform console
 - create new project
