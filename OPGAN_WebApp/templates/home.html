@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href="{{ url_for('static',filename='css/home.css') }}" />
+  <script type="text/javascript" src="{{ url_for('static', filename='css/home.js') }}" ></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  <style>
+  body{
+        background-image:url({{ url_for ('static', filename='bg.jpeg') }});
+        background-attachment: fixed;
+        background-size:cover;
+    }
+</style>
+</head>
+<body>
+<div>
+  <!-- font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; -->
+  <div class='center' >
+    <div class='title' style="color: #CD5C5C; font-family: Audiowide, sans-serif; text-shadow: 3px 3px 3px #ababab;"> <h2>Artificial Intelligence Enabled Image Generation From Text</h2> </div>
+    <div class='content'>
+      <div class='no-display'>
+      </div>
+      
+      <label for="text" style="color: #CD5C5C; "><h1>Enter text</h1></label>
+      <textarea type="text" name="text" rows="8" cols="50" wrap="soft" style="font-size: 18px;"> </textarea>
+      <!-- <input style="height:150px;font-size:13pt;width:200px;" type="text" id="text1" name="text"><br><br> -->
+      <div class='analyze'>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Generate Image</button>
+      </div>
+      <div class='result-label'>
+        <label id='result-label'></label>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
