@@ -28,4 +28,4 @@ app.yaml and appengine_config.py - these files are used to deploy the web applic
 
 Web Page:
 
-https://github.com/Ranjani94/MasterProject/blob/master/webpage.png
+![alt text](https://github.com/Ranjani94/MasterProject/blob/master/webpage.png)
