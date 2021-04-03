@@ -24,3 +24,8 @@ app.yaml and appengine_config.py - these files are used to deploy the web applic
 - pip install -t lib -r requirements.txt [-t lib: This flag copies the libraries into a lib folder, which uploads to App Engine during deployment. -r requirements.txt: Tells pip to install everything from requirements.txt]
 - gcloud app deploy [specify the ProjectID which is given in GCP console after creating new project]
 - "your project id".appspot.com [check the URL in browser]
+
+
+Web Page:
+
+https://github.com/Ranjani94/MasterProject/blob/master/webpage.png
